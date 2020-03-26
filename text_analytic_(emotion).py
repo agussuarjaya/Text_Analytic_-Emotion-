@@ -11,7 +11,7 @@ Original file is located at
 
   Text Analytic (Emotion) with TensorFlow
  
-  Copyright 2019  I Made Agus Dwi Suarjaya
+  Copyright 2020  I Made Agus Dwi Suarjaya
                   Author 2
                   Author 3
 
