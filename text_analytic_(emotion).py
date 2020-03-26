@@ -35,7 +35,7 @@ import pandas as pd
 tf.compat.v1.enable_eager_execution()
 
 #--------------------------------------------------------------------------------------------------------------------------
-"""
+
 #Get dataset by url into panda dataframe
 dataset_url = 'https://raw.githubusercontent.com/meisaputri21/Indonesian-Twitter-Emotion-Dataset/master/Twitter_Emotion_Dataset.csv'
 df1 = pd.read_csv(dataset_url)
@@ -156,7 +156,7 @@ encoder.save_to_file(export_path_encoder)
 export_path_dict = "./{}_dict".format(int(t))
 with open(export_path_dict, 'w') as outfile:
     outfile.write(str(d))
-"""
+
 #--------------------------------------------------------------------------------------------------------------------------
 
 #Load the model (Optional for Transfer Learning)
