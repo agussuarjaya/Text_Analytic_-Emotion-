@@ -180,6 +180,7 @@ tweet.append('[Idm] My, masa gua tadi ketemu tmn SD yg pas SD ngejar gua dan nga
 tweet.append('Sedih bny penulisan resep yg tidak baku sdm, sdt, ruas, sejumput, secukupnya, even biji/buah termasuk tidak baku :(')
 tweet.append('Paling nyampah org suka compare kan aku dgn org lain, dia dia ah aku aku ah. Tak suka boleh blah lah')
 tweet.append('Agak telat ramai nya ya dok...sudah paham sejak lama banget jadi geli aja baru pada ramai sekarang hehehe...')
+tweet.append('Rame amat ga ada yang mau mutualan gitu?')
 
 for text in range(len(tweet)):
   predictions = model.predict(encoder.encode(tweet[text]))
