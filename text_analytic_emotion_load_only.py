@@ -57,8 +57,9 @@ tweet = []
 tweet.append('Tahukah kamu, bahwa saat itu papa memejamkan matanya dan menahan gejolak dan batinnya. Bahwa papa sangat ingin mengikuti keinginanmu tapu lagi-lagi dia HARUS menjagamu?')
 tweet.append('[Idm] My, masa gua tadi ketemu tmn SD yg pas SD ngejar gua dan ngasih surat tiap minggunya, asdfghjkl bgt, gk tau knp ngerasa takut gua :v hadeuh jaman SD ngerti apa coba :v')
 tweet.append('Sedih bny penulisan resep yg tidak baku sdm, sdt, ruas, sejumput, secukupnya, even biji/buah termasuk tidak baku :(')
-tweet.append('Paling nyampah org suka compare kan aku dgn org lain, dia dia ah aku aku ah. Tak suka boleh blah lah')
+tweet.append('Paling nyampah org suka compare kan aku dgn org lain, dia dia ah aku aku ah. Tak suka boleh blah lah -__-')
 tweet.append('Agak telat ramai nya ya dok...sudah paham sejak lama banget jadi geli aja baru pada ramai sekarang hehehe...')
+tweet.append('SENENG BANGET AKHIRNYAAA DIFOLLBACK MAKASIHHH MIN..')
 
 for text in range(len(tweet)):
   predictions = model.predict(encoder.encode(tweet[text]))
